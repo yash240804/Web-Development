@@ -1,0 +1,8 @@
+div{
+    color:aqua;
+    background-color:red;
+}
+/* this is external css */
+/* here div is a selector used to select a tag in this case div. */
+/* color: is used to letters of words inside a tags. */
+/* background-color: is used to for background color of a tag. */
