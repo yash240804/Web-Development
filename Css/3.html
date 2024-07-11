@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* Removes initial padding and margin given by the browser */
+        }
+        .box{
+            background-color: cyan;
+        }
+        .box1{
+            color: violet;
+            border: 2px solid red;
+            margin: 20px;
+            padding: 25px;
+            height: 100px;
+            box-sizing: border-box;
+            /* box-sizing: border-box --> is used for combining height with padding and border other wise the content will take give height */
+            /* margin collapse concept??? */
+        }
+        .box2{
+            color: black;
+            border: 2px solid red;
+            margin: 20px;
+            padding: 25px;
+            height: 100px;
+            box-sizing: border-box;
+            /* border - is used for giving border */
+            /* margin - is used for giving margin which is space outside border */
+            /* padding - is used to give padding which is space inside border */
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">Hey I am box 1</div>
+    <div class="box box2">Hey I am box 2</div>
+</body>
+</html>
